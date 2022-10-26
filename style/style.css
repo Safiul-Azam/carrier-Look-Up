@@ -8,8 +8,28 @@
 }
  /*-- REUSEABLE STYLE --*/
 
- 
-.navbar{
+ /*--- HEADER SECTION ---*/
+.header-section{
     background: #000;
-    color: #FFFFFF;
+    padding: 0 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.profile-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+}
+.profile-photo{
+   display: flex; 
+   align-items: center;
+   gap: 10px;
+   background: #ffffff;
+   color: #26262E;
+   padding: 6px;
+   border-radius: 45px;
 }
