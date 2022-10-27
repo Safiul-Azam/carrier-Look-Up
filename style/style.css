@@ -10,6 +10,11 @@
 li {
   list-style: none;
 }
+h4{
+  font-size: 20px;
+  font-weight: 500;
+  color: #26262E;
+}
 
 /*--- HEADER SECTION STYLE START ---*/
 .header-section {
@@ -62,10 +67,6 @@ li {
   width: 40px;
   height: 40px;
 }
-.user-info p {
-  font-size: 20px;
-  font-weight: 400;
-}
 .user-info angle-down {
   width: 12px;
 }
@@ -104,10 +105,10 @@ li {
   color: #ffffff;
 }
 .list-style::after {
-  content: '';
+  content: "";
   width: 3px;
   height: 29px;
-  background: #FF7901;
+  background: #ff7901;
   position: absolute;
   right: 0;
 }
@@ -116,8 +117,36 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-.nested-icon{
-    margin-top: -30px ;
+.nested-icon {
+  margin-top: -30px;
+}
+/* payment section style */
+
+.payment-section {
+  background: #fcfbff;
+}
+.credit-section {
+  display: grid;
+  grid-template-columns: 325px auto;
+  margin: 30px;
+}
+
+.user-information {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10px;
+  width: 172px;
+  padding: 40px 86px 71px 67px;
+  border: 1px solid #f2f2f4;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+}
+.user-information p {
+    color:#7D7D7E;
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 /*--- MAIN SECTION STYLE END ---*/
