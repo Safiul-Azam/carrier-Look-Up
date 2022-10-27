@@ -25,45 +25,58 @@
             <p>Balance :</p>
             <h2>$125</h2>
           </div>
-          <div class="user-info">
-            <img class="photo" src="images/profile.png" alt="" />
-            <h4 class="user-name">Alexa Jui</h4>
-            <img class="angle-down" src="images/icons/angle-down.svg" alt="" />
+          <div class="user-section">
+            <div class="user-info">
+              <img class="user-photo" src="images/profile.png" alt="" />
+              <h4 class="user-name">Alexa Jui</h4>
+              <img
+                class="angle-down"
+                src="images/icons/angle-down.svg"
+                alt=""
+              />
+            </div>
+            <div class="user-menu">
+              <ul>
+                <li>My Profile</li>
+                <li>Add Fund</li>
+                <li>API Documentation</li>
+                <li>Log Out</li>
+                <li class="logout">
+                  <img src="images/icons/logout.png" alt="" />Log Out
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
     </header>
     <!-- HEADER SECTION END -->
     <!-- main SECTION start -->
-    <section>
-      <main class="main-section">
-        <nav class="side-menubar">
-          <ul class="menubar-section">
-            <li>
-              <a class="list-style"
-                ><img src="images/icons/dashboard.png" alt="" />Dashboard</a
-              >
-            </li>
-            <li>
-              <a class="list-style"
-                ><img src="images/icons/lockup.png" alt="" />Lookup</a
-              >
-            </li>
-            <li>
-              <a class="list-style"
-                ><img src="images/icons/file.png" alt="" />Files</a
-              >
-            </li>
-            <li class="nested-menu">
-              <a class="list-style"
-                ><img src="images/icons/logs.png" alt="" />Logs</a
-              >
-              <img
-                class="nested-icon"
-                src="images/icons/angle-down.svg"
-                alt=""
-              />
-              <!-- <ul>
+    <main class="main-section">
+      <!-- side navbar section  -->
+      <nav class="side-menubar">
+        <ul class="menubar-section">
+          <li>
+            <a class="list-style"
+              ><img src="images/icons/dashboard.png" alt="" />Dashboard</a
+            >
+          </li>
+          <li>
+            <a class="list-style"
+              ><img src="images/icons/lockup.png" alt="" />Lookup</a
+            >
+          </li>
+          <li>
+            <a class="list-style"
+              ><img src="images/icons/file.png" alt="" />Files</a
+            >
+          </li>
+          <li class="nested-menu">
+            <a class="list-style"
+              ><img src="images/icons/logs.png" alt="" />Logs</a
+            >
+            <img class="nested-icon" src="images/icons/angle-down.svg" alt="" />
+            <!-- <ul>
                 <li>
                   <a class="list-style"
                     ><img src="images/icons/file.png" alt="" />Files</a
@@ -75,128 +88,128 @@
                   >
                 </li>
               </ul> -->
-            </li>
-            <li>
-              <a class="list-style"
-                ><img src="images/icons/buy.png" alt="" />Buy Credits</a
-              >
-            </li>
-            <li>
-              <a class="list-style"
-                ><img src="images/icons/intre.png" alt="" />Integrations</a
-              >
-            </li>
-            <li>
-              <a class="list-style"
-                ><img src="images/icons/profile.png" alt="" />My Profile</a
-              >
-            </li>
-          </ul>
-        </nav>
-
-        <section class="profile-section">
-          <div class="user-information">
-            <div class="user">
-              <img class="profile-pic" src="images/user-pic.png" alt="" />
-              <h4>Alexa Jui</h4>
-              <p>alexajui@gmail.com</p>
-              <p>+1 354 785 4125</p>
-              <p>3213 D Street, Columbus, USA</p>
-            </div>
-            <div class="credit-section">
-              <h3>Your Credit Cards</h3>
-              <div class="credit">
-                <div class="credit-1">
-                  <img class="trash-icon" src="images/icons/trash.png" alt="" />
-                  <h4>Credit Card 1</h4>
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    placeholder="xxxxxxxxxxxx4684"
-                  />
-                </div>
-                <div class="credit-1">
-                  <img class="trash-icon" src="images/icons/trash.png" alt="" />
-                  <h4>Credit Card 2 (Default)</h4>
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    placeholder="xxxxxxxxxxxx4242"
-                  />
-                </div>
-                <div class="credit-1">
-                  <img class="trash-icon" src="images/icons/trash.png" alt="" />
-                  <h4>Credit Card 3</h4>
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    placeholder="xxxxxxxxxxxx1254"
-                  />
-                </div>
+          </li>
+          <li>
+            <a class="list-style"
+              ><img src="images/icons/buy.png" alt="" />Buy Credits</a
+            >
+          </li>
+          <li>
+            <a class="list-style"
+              ><img src="images/icons/intre.png" alt="" />Integrations</a
+            >
+          </li>
+          <li>
+            <a class="list-style"
+              ><img src="images/icons/profile.png" alt="" />My Profile</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- profile menu section -->
+      <section class="profile-section">
+        <!-- user information  -->
+        <div class="user-information">
+          <div class="user">
+            <img class="profile-pic" src="images/user-pic.png" alt="" />
+            <h4>Alexa Jui</h4>
+            <p>alexajui@gmail.com</p>
+            <p>+1 354 785 4125</p>
+            <p>3213 D Street, Columbus, USA</p>
+          </div>
+          <div class="credit-section">
+            <h3>Your Credit Cards</h3>
+            <div class="credit">
+              <div class="credit-1">
+                <img class="trash-icon" src="images/icons/trash.png" alt="" />
+                <h4>Credit Card 1</h4>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="xxxxxxxxxxxx4684"
+                />
+              </div>
+              <div class="credit-1">
+                <img class="trash-icon" src="images/icons/trash.png" alt="" />
+                <h4>Credit Card 2 (Default)</h4>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="xxxxxxxxxxxx4242"
+                />
+              </div>
+              <div class="credit-1">
+                <img class="trash-icon" src="images/icons/trash.png" alt="" />
+                <h4>Credit Card 3</h4>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="xxxxxxxxxxxx1254"
+                />
               </div>
             </div>
           </div>
-          <div class="profile-settings-section">
-            <div class="setting-menu">
-              <ul>
-                <li><a href="#">Update Profile</a></li>
-                <li><a href="#">Change Password</a></li>
-                <li><a href="#">Email Notifications</a></li>
-                <li><a href="#">Auto Recharge Settings</a></li>
-              </ul>
-            </div>
-            <div class="email-notifications">
-              <ul>
-                <li class="list-item">
-                  <img src="images/icons/toggle.png" alt="" />
-                  <p>Notify me when list verification completes</p>
-                </li>
-                <li class="list-item">
-                  <img src="images/icons/toggle.png" alt="" />
-                  <p>me when list export completes</p>
-                </li>
-                <li class="list-item">
-                  <img src="images/icons/active-toggle.png" alt="" />
-                  <p>
-                    Notify me when list verification result is about to expire
-                  </p>
-                </li>
-                <hr />
-                <li class="list-item">
-                  <img src="images/icons/toggle.png" alt="" />
-                  <div class="low-credit-email">
-                    <p>Receive Low Credits Email</p>
-                    <div class="credit-email">
-                      <div class="single-input">
-                        <label class="required">Send Email to</label>
-                        <input
-                          type="text"
-                          name=""
-                          id=""
-                          placeholder="alexajui@gmail.com"
-                        />
-                      </div>
-                      <div class="single-input">
-                        <label class="required">When credits are less than</label>
-                        <input type="text" name="" id="" placeholder="50" />
-                      </div>
+        </div>
+        <!-- profile setting section  -->
+        <div class="profile-settings-section">
+          <div class="setting-menu">
+            <ul>
+              <li><a href="#">Update Profile</a></li>
+              <li><a href="#">Change Password</a></li>
+              <li><a href="#">Email Notifications</a></li>
+              <li><a href="#">Auto Recharge Settings</a></li>
+            </ul>
+          </div>
+          <!-- email Notifications tab  -->
+          <div class="email-notifications">
+            <ul>
+              <li class="list-item">
+                <img src="images/icons/toggle.png" alt="" />
+                <p>Notify me when list verification completes</p>
+              </li>
+              <li class="list-item">
+                <img src="images/icons/toggle.png" alt="" />
+                <p>me when list export completes</p>
+              </li>
+              <li class="list-item">
+                <img src="images/icons/active-toggle.png" alt="" />
+                <p>
+                  Notify me when list verification result is about to expire
+                </p>
+              </li>
+              <hr />
+              <li class="list-item">
+                <img src="images/icons/toggle.png" alt="" />
+                <div class="low-credit-email">
+                  <p>Receive Low Credits Email</p>
+                  <div class="credit-email">
+                    <div class="single-input">
+                      <label class="required">Send Email to</label>
+                      <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="alexajui@gmail.com"
+                      />
+                    </div>
+                    <div class="single-input">
+                      <label class="required">When credits are less than</label>
+                      <input type="text" name="" id="" placeholder="50" />
                     </div>
                   </div>
-                </li>
-              </ul>
-
-              <hr />
-              <button class="change-btn">Save Changes</button>
-            </div>
+                </div>
+              </li>
+            </ul>
+            <hr />
+            <button class="change-btn">Save Changes</button>
           </div>
-        </section>
-      </main>
-    </section>
+        </div>
+      </section>
+    </main>
     <!-- main SECTION END -->
-
     <!--own javascript link -->
     <script src="js/app.js"></script>
   </body>
