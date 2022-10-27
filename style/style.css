@@ -1,45 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
 
 /* color:#26262E, #FF7901 #BDBDBD #F2F2F4 #7D7D7E */
-*{
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
 }
- /*-- REUSEABLE STYLE --*/
+/*-- REUSEABLE STYLE --*/
 
- /*--- HEADER SECTION ---*/
-.header-section{
-    background: #000;
-    padding:15px 20px;
+/*--- HEADER SECTION STYLE START ---*/
+.header-section {
+  background: #000;
+  padding: 7px 20px;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
-.navbar .logo{
-    width: 124px;
-    height: 68px;
+.navbar .logo {
+  width: 124px;
+  height: 68px;
 }
-.profile-section{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: #ffffff;
+.profiler-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
 }
-.profile-photo{
-   display: flex; 
-   align-items: center;
-   gap: 10px;
-   background: #ffffff;
-   color: #26262E;
-   padding: 6px;
-   border-radius: 45px;
+.profiler-info .balance {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 400;
 }
-.profile-photo h3{
-    font-size: 20px;
+.profiler-info .balance p {
+  font-style: 20px;
+  font-weight: 300;
+  margin-right: 10px;
 }
-.profile-photo i{
-    font-size: 12px;
+.profiler-info .balance h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ff7901;
 }
+.user-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ffffff;
+  color: #26262e;
+  width: 200px;
+  height: 60px;
+  border-radius: 45px;
+}
+.user-info .photo {
+  width: 40px;
+  height: 40px;
+}
+.user-info p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.user-info angle-down {
+  width: 12px;
+}
+/*--- HEADER SECTION STYLE END ---*/
+/*--- HEADER SECTION STYLE START ---*/
+/*--- HEADER SECTION STYLE END ---*/
