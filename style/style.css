@@ -7,6 +7,9 @@
   margin: 0;
 }
 /*-- REUSEABLE STYLE --*/
+li{
+    list-style: none;
+}
 
 /*--- HEADER SECTION STYLE START ---*/
 .header-section {
@@ -66,5 +69,28 @@
   width: 12px;
 }
 /*--- HEADER SECTION STYLE END ---*/
-/*--- HEADER SECTION STYLE START ---*/
-/*--- HEADER SECTION STYLE END ---*/
+
+
+/*--- MAIN SECTION STYLE START ---*/
+.main-section{
+    display: grid;
+    grid-template-columns: 224px auto
+}
+/*--- navbar style ---*/
+.side-navbar{
+    background-color: #000;
+    height: auto;
+    color: #ffffff;
+}
+.navbar-section{
+   margin-left: 42px;
+}
+.list-style{
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  
+}
+
+
+/*--- MAIN SECTION STYLE END ---*/
