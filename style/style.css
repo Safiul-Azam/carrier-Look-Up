@@ -15,6 +15,12 @@ h4{
   font-weight: 500;
   color: #26262E;
 }
+h3{
+    font-size: 24px;
+    color: #26262E;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 
 /*--- HEADER SECTION STYLE START ---*/
 .header-section {
@@ -120,18 +126,19 @@ h4{
 .nested-icon {
   margin-top: -30px;
 }
-/* payment section style */
+/* user information section style */
 
 .payment-section {
   background: #fcfbff;
 }
-.credit-section {
+.user-information {
   display: grid;
   grid-template-columns: 325px auto;
   margin: 30px;
+  gap: 30px;
 }
 
-.user-information {
+.user {
   text-align: center;
   background: #ffffff;
   border-radius: 10px;
@@ -143,10 +150,51 @@ h4{
   width: 100px;
   height: 100px;
 }
-.user-information p {
+.user p {
     color:#7D7D7E;
     font-size: 12px;
     margin-top: 5px;
 }
+/* credit section style */
+.credit-section{
+    border: 1px solid red;
+    padding: 70px 30px 0 30px;
+}
+.credit{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.credit-1{
+    border: 1px solid #f2f2f4;
+    color: black;
+    position: relative;
+    padding: 30px;
+    width: 387px;
+    border-radius: 10px;
+}
+.credit-1 h4{
+   color:#7D7D7E;
+   margin-bottom: 30px
+}
+.credit-1 .trash-icon{
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+.credit-1 input{
+    border: none;
+    width: 100%;
+    padding: 7px 0 7px 0;
+    font-size: 20px;
+    outline: none;
+}
+.credit-1 input::placeholder{
+    color: #BDBDBD;
+    font-size: 20px;
+    font-weight: 500;
 
+}
 /*--- MAIN SECTION STYLE END ---*/
