@@ -10,7 +10,7 @@
 li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
 h4 {
@@ -61,10 +61,11 @@ h3 {
   font-weight: 500;
   color: #ff7901;
 }
-.user-section{
+.user-section {
   position: relative;
 }
 .user-info {
+  z-index: 20;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -73,33 +74,37 @@ h3 {
   width: 200px;
   height: 60px;
   border-radius: 45px;
-  z-index: 10;
+  position: relative;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
 }
 
 /* hidden menu  */
-.user-menu{
+.user-menu {
+  z-index: 10;
   width: 200px;
   padding-top: 60px;
   background: #ffffff;
   color: #7d7d7e;
   position: absolute;
-  z-index: 30;
   top: 30px;
-  border: 1px solid #f2f2f4;
-  display: none;
+  box-shadow: 0px 30px 20px rgba(198, 211, 232, 0.2);
+  
 }
-.user-menu ul{
+.user-menu ul {
   padding: 20px;
 }
-.user-menu ul li{
+.user-menu-toggle{
+  display: none;
+}
+.user-menu ul li {
   font-size: 14px;
   margin-bottom: 20px;
   font-weight: 500;
 }
-.logout{
+.logout {
   background: rgba(255, 1, 1, 0.1);
   padding: 10px 34px;
-  color: #FF5E5E;
+  color: #ff5e5e;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -157,10 +162,13 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
-.nested-menu .nested-icon{
+.nested-menu .nested-icon {
   margin-top: -30px;
 }
-.nested-menu-item li a{
+.nested-menu-item {
+  display: none;
+}
+.menu-style {
   display: flex;
   gap: 13px;
   color: #7d7d7e;
@@ -170,13 +178,19 @@ h3 {
   padding-bottom: 30px;
   margin-left: 12px;
 }
-.nested-menu-item li a::after {
+.menu-style::after {
   content: "";
   width: 3px;
   height: 29px;
   background: #ff7901;
   position: absolute;
   right: 0;
+}
+.active {
+  background: blue;
+  color: #fff;
+  box-shadow: none;
+  outline: none;
 }
 /* user information section style */
 
@@ -354,6 +368,6 @@ hr {
   padding: 10px 16px;
   border-radius: 5px;
   border: none;
-  box-shadow:0px 20px 50px rgba(255, 121, 1, 0.3);
+  box-shadow: 0px 20px 50px rgba(255, 121, 1, 0.3);
 }
 /*--- MAIN SECTION STYLE END ---*/
