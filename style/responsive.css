@@ -1,9 +1,11 @@
 /* Mobile devices */
 @media only screen and (max-width: 480px) {
+
+
 }
 
 /* iPads, Tablets */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   body {
     max-width: 768px;
     /* max-width: 1023px; */
@@ -19,7 +21,7 @@
     /* width: 916px; */
     background: #fcfbff;
     padding: 30px 30px 40px 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   /*--- MAIN SECTION STYLE START ---*/
   .user-information {
@@ -32,7 +34,7 @@
     padding: 40px 50px 71px 50px;
   }
   .credit-section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 70px 15px 70px 15px;
   }
   .all-credits {
@@ -45,6 +47,27 @@
   .single-credit {
     width: 424px;
     padding: 15px;
+  }
+  /* low credit email */
+  .email-notifications {
+    width: 90%;
+    margin: auto;
+  }
+  .setting-menu {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .setting-menu li {
+    padding: 40px 10px 10px 10px;
+  }
+  .setting-menu li a{
+    font-size: 10px;
+  }
+  .credit-email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 }
 
@@ -83,6 +106,18 @@
   .user {
     width: 150px;
     padding: 40px 24px 71px 24px;
+  }
+
+  /* low credit email */
+  .email-notifications {
+    width: 80%;
+    margin: auto;
+  }
+  .credit-email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 }
 
