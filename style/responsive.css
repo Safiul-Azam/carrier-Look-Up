@@ -4,45 +4,86 @@
 
 /* iPads, Tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    
+  body {
+    max-width: 768px;
+    /* max-width: 1023px; */
+  }
+  .header-section {
+    max-width: 708px;
+    /* max-width: 963px; */
+    /* max-width: 1140px;  */
+  }
+
+  .profile-section {
+    width: 484px;
+    /* width: 916px; */
+    background: #fcfbff;
+    padding: 30px 30px 40px 30px;
+    border: 1px solid red;
+  }
+  /*--- MAIN SECTION STYLE START ---*/
+  .user-information {
+    display: grid;
+    grid-template-columns: 484px;
+    /* gap: 15px; */
+  }
+  .user {
+    width: 384px;
+    padding: 40px 50px 71px 50px;
+  }
+  .credit-section {
+    border: 1px solid red;
+    padding: 70px 15px 70px 15px;
+  }
+  .all-credits {
+    width: 454px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    /* border: 1px solid red; */
+  }
+  .single-credit {
+    width: 424px;
+    padding: 15px;
+  }
 }
 
 /* Small screens, laptops */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-        max-width: 1023px;
-      }
-      .header-section {
-        max-width: 964px; 
-        /* max-width: 1140px;  */
-      }
-      .profile-section {
-        width: 740px;
-        /* width: 916px; */
-        background: #fcfbff;
-        padding: 30px 30px 40px 30px;
-        border: 1px solid #f2f2f4;
-      }
-      /*--- MAIN SECTION STYLE START ---*/
-      .user-information {
-        display: grid;
-        grid-template-columns: 200px auto;
-        gap: 15px;
-    }
-    .all-credits {
-      width: 420px;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap: 30px;
-    }
-      .single-credit {
-        width: 420px;
-        padding: 14px;
-      }
-      .user {
-        width: 150px;
-        padding: 40px 24px 71px 24px;
-      }
+  body {
+    max-width: 1023px;
+  }
+  .header-section {
+    max-width: 964px;
+    /* max-width: 1140px;  */
+  }
+  .profile-section {
+    width: 740px;
+    /* width: 916px; */
+    background: #fcfbff;
+    padding: 30px 30px 40px 30px;
+    border: 1px solid #f2f2f4;
+  }
+  /*--- MAIN SECTION STYLE START ---*/
+  .user-information {
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 15px;
+  }
+  .all-credits {
+    width: 420px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .single-credit {
+    width: 420px;
+    padding: 14px;
+  }
+  .user {
+    width: 150px;
+    padding: 40px 24px 71px 24px;
+  }
 }
 
 /* Desktops, large screens */
