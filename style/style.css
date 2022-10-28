@@ -55,6 +55,7 @@ hr {
   color: white;
   display: none;
   font-size: 30px;
+  cursor: pointer;
 
 }
 .profiler-info {
@@ -333,7 +334,7 @@ main {
   margin-bottom: 30px;
 }
 .list-item p {
-  font-style: 16px;
+  font-size: 16px;
   font-weight: 500;
   color: #26262e;
 }
@@ -346,6 +347,7 @@ main {
   position: relative;
   background: #ff7901;
   border-radius: 30px;
+  border: 1px solid #ff7901;
 }
 .list-item .indicator {
   z-index: 10;
@@ -369,7 +371,7 @@ main {
   display: flex;
   gap: 30px;
 }
-.credit-email label {
+.single-input label {
   font-size: 16px;
   font-weight: 500;
   color: #7d7d7e;
