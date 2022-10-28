@@ -1,0 +1,55 @@
+/* Mobile devices */
+@media only screen and (max-width: 480px) {
+}
+
+/* iPads, Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Small screens, laptops */
+@media only screen and (min-width: 769px) and (max-width: 1022px) {
+}
+
+/* Desktops, large screens */
+@media only screen and (min-width: 1023px) and (max-width: 1200px) {
+  body {
+    max-width: 1200px;
+  }
+  .header-section {
+    max-width: 1140px;
+  }
+  .profile-section {
+    width: 916px;
+    background: #fcfbff;
+    padding: 30px 30px 40px 30px;
+    border: 1px solid #f2f2f4;
+  }
+  /*--- MAIN SECTION STYLE START ---*/
+  .user-information {
+    display: grid;
+    grid-template-columns: 250px auto;
+    gap: 30px;
+  }
+  .single-credit {
+    width: 222px;
+    padding: 30px;
+    border: 1px solid #f2f2f4;
+    color: black;
+    position: relative;
+    border-radius: 10px;
+  }
+  .all-credits {
+    width: 606px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .user {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 150px;
+    padding: 40px 50px 71px 50px;
+    border: 1px solid #f2f2f4;
+  }
+}

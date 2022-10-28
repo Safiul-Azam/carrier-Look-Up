@@ -405,7 +405,7 @@ main {
 .nested-menu-item {
   display: none;
 }
-.user-menu-toggle {
+#user-menu-toggle {
   display: none;
 }
 .menubar-section .active {
