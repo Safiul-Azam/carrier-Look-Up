@@ -12,18 +12,8 @@
     flex-direction: column;
     justify-content: center;
   }
-  .side-menubar {
-    display: none;
-  }
   .profiler-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #ffffff;
-  }
-
-  .menubar .bar-menu-icon {
-    display: block;
+    display: none;
   }
   .profile-section {
     max-width: 420px;
@@ -112,6 +102,27 @@
     height: 2px;
     left: 0;
     right: 0;
+  }
+
+  /* bar menu style  */
+  .menubar .bar-menu-icon {
+    display: block;
+  }
+
+  .main-section {
+    display: grid;
+    grid-template-columns: 480px;
+  }
+  
+  .side-menubar{
+    display: none;
+    height: 100%;
+  }
+  .main-section .active{
+    display: block;
+  }
+  .main-section .deactivate{
+    display: none;
   }
 }
 

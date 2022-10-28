@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     nestedMenuItem.classList.toggle("nested-menu-item");
   });
   angleDown.addEventListener("mousedown", () => {
-    userMenu.classList.toggle("user-menu-toggle");
+    userMenu.classList.toggle("active");
   });
 });
 // active menu set
@@ -46,3 +46,13 @@ const singleCredit = document.querySelectorAll(".single-credit");
 singleCredit.forEach((single) => single.addEventListener("click", () => {
   single.classList.toggle('active')
 }));
+document.addEventListener("DOMContentLoaded", () => {
+  const humBerMenu = document.querySelector(".bar-menu-icon");
+  const sideMenuBar = document.querySelector(".side-menubar");
+  const profileSection = document.querySelector('.profile-section')
+
+  humBerMenu.addEventListener("mousedown", () => {
+    sideMenuBar.classList.toggle("active");
+    profileSection.classList.toggle('deactivate')
+  });
+});
