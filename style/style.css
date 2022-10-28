@@ -6,6 +6,10 @@
   padding: 0;
   margin: 0;
 }
+body{
+  width: 1920px;
+  border: 1px solid red;
+}
 /*-- REUSEABLE STYLE --*/
 li {
   list-style: none;
@@ -28,6 +32,7 @@ h3 {
 .header-section {
   background: #000;
   padding: 7px 30px;
+  width: 1860px;
 }
 .menubar {
   display: flex;
@@ -76,6 +81,7 @@ h3 {
   border-radius: 45px;
   position: relative;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
 }
 
 /* hidden menu  */
@@ -116,10 +122,14 @@ h3 {
 }
 .user-info angle-down {
   width: 12px;
+  cursor: pointer;
 }
 /*--- HEADER SECTION STYLE END ---*/
 
 /*--- MAIN SECTION STYLE START ---*/
+main{
+  width: 100%;
+}
 .main-section {
   display: grid;
   grid-template-columns: 224px auto;
@@ -145,6 +155,7 @@ h3 {
   font-weight: 500;
   align-items: center;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 .list-style:hover {
   color: #ffffff;
@@ -157,6 +168,8 @@ h3 {
   position: absolute;
   right: 0;
 }
+
+/* nested menu style  */
 .nested-menu {
   display: flex;
   justify-content: space-between;
@@ -164,6 +177,7 @@ h3 {
 }
 .nested-menu .nested-icon {
   margin-top: -30px;
+  cursor: pointer;
 }
 .nested-menu-item {
   display: none;
@@ -177,6 +191,7 @@ h3 {
   align-items: center;
   padding-bottom: 30px;
   margin-left: 12px;
+  cursor: pointer;
 }
 .menu-style::after {
   content: "";
@@ -186,16 +201,11 @@ h3 {
   position: absolute;
   right: 0;
 }
-.active {
-  background: blue;
-  color: #fff;
-  box-shadow: none;
-  outline: none;
-}
 /* user information section style */
 
 .profile-section {
-  width: 100%;
+  width: 1634px;
+  border: 1px solid red;
   background: #fcfbff;
   padding: 30px 30px 40px 30px;
 }
@@ -228,16 +238,18 @@ h3 {
   padding: 70px 30px 70px 30px;
 }
 .credit {
+  width: 1221px;
+  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 .credit-1 {
-  border: 1px solid #f2f2f4;
+  width: 325px;
+  padding: 30px;
+  border: 1px solid #ff5e5e;
   color: black;
   position: relative;
-  padding: 30px;
-  width: 387px;
   border-radius: 10px;
 }
 .credit-1 h4 {
