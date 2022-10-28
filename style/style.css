@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
 }
-body{
+body {
   width: 1920px;
 }
 /*-- REUSEABLE STYLE --*/
@@ -97,7 +97,6 @@ hr {
   position: absolute;
   top: 30px;
   box-shadow: 0px 30px 20px rgba(198, 211, 232, 0.2);
-  
 }
 /* .user-menu {
   padding: 20px;
@@ -127,7 +126,7 @@ hr {
 /*--- HEADER SECTION STYLE END ---*/
 
 /*--- MAIN SECTION STYLE START ---*/
-main{
+main {
   width: 100%;
 }
 .main-section {
@@ -331,7 +330,7 @@ main{
   width: 50px;
   height: 30px;
   position: relative;
-  background: #FF7901;
+  background: #ff7901;
   border-radius: 30px;
 }
 .list-item .indicator {
@@ -346,7 +345,7 @@ main{
 }
 /* low credit email */
 .low-credit-email {
-  width: 100%;
+  width: 95%;
 }
 .low-credit-email p {
   margin-bottom: 20px;
@@ -399,13 +398,13 @@ main{
 .nested-menu-item {
   display: none;
 }
-.user-menu-toggle{
+.user-menu-toggle {
   display: none;
 }
-.active{
-  color:red;
+.menubar-section .active {
+  color: #ffffff;
 }
-.active::after {
+.menubar-section .active::after {
   content: "";
   width: 3px;
   height: 29px;
@@ -413,7 +412,7 @@ main{
   position: absolute;
   right: 0;
 }
-.setting-menu .active{
+.setting-menu .active {
   color: #ff7901;
 }
 .setting-menu .active::after {
@@ -425,4 +424,12 @@ main{
   bottom: 0;
   left: -10%;
   right: -10%;
+}
+.list-item .active {
+  background: #ffffff;
+  border:1px solid #ff7901;
+}
+.list-item .active .indicator {
+  background: #ff7901;
+  left: 5px;
 }
