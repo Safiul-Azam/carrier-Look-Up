@@ -39,3 +39,10 @@ toggleBtn.forEach((toggle) =>
   })
 );
 console.log(toggleBtn);
+
+// single credit active cart
+
+const singleCredit = document.querySelectorAll(".single-credit");
+singleCredit.forEach((single) => single.addEventListener("click", () => {
+  single.classList.toggle('active')
+}));
