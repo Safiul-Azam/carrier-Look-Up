@@ -46,6 +46,17 @@ hr {
   height: 68px;
   margin-left: 10px;
 }
+.logo-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menubar .bar-menu-icon {
+  color: white;
+  display: none;
+  font-size: 30px;
+
+}
 .profiler-info {
   display: flex;
   align-items: center;
@@ -398,7 +409,6 @@ main {
 }
 /*--- MAIN SECTION STYLE END ---*/
 
-
 /* STYLE JUST FOR JAVASCRIPT */
 .nested-menu-item {
   display: none;
@@ -441,10 +451,11 @@ main {
 .all-credits .active {
   border: 1px solid #ff7901;
 }
-.all-credits .active h4,input::placeholder {
+.all-credits .active h4,
+input::placeholder {
   color: #000;
 }
-.all-credits .active .trash-icon{
-  color: #FF4242;
-  background: #FFD7D7;
+.all-credits .active .trash-icon {
+  color: #ff4242;
+  background: #ffd7d7;
 }

@@ -1,7 +1,87 @@
 /* Mobile devices */
 @media only screen and (max-width: 480px) {
+  body {
+    max-width: 480px;
+    /* max-width: 768px; */
+    /* max-width: 1023px; */
+  }
+  /*--- HEADER SECTION RESPONSIVE ---*/
+  .header-section {
+    max-width: 420px;
+    /* max-width: 963px; */
+    /* max-width: 1140px;  */
+  }
+  .menubar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .side-menubar {
+    display: none;
+  }
+  .profiler-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
 
-
+  .menubar .bar-menu-icon {
+    display: block;
+  }
+  .profile-section {
+    max-width: 420px;
+    /* width: 916px; */
+    background: #fcfbff;
+    padding: 30px 30px 40px 30px;
+    /* border: 1px solid red; */
+  }
+  /*--- MAIN SECTION STYLE START ---*/
+  .user-information {
+    display: grid;
+    grid-template-columns: 420px;
+    /* gap: 15px; */
+  }
+  .user {
+    width: 320px;
+    padding: 40px 50px 71px 50px;
+  }
+  .credit-section {
+    /* border: 1px solid red; */
+    padding: 70px 15px 70px 15px;
+  }
+  .all-credits {
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    /* border: 1px solid red; */
+  }
+  .single-credit {
+    width: 370px;
+    padding: 15px;
+  }
+  /* low credit email */
+  .email-notifications {
+    width: 90%;
+    margin: auto;
+  }
+  .setting-menu {
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .setting-menu li {
+    padding: 30px 10px 10px 10px;
+  }
+  .setting-menu li a {
+    font-size: 8px;
+  }
+  .credit-email {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 /* iPads, Tablets */
@@ -60,7 +140,7 @@
   .setting-menu li {
     padding: 40px 10px 10px 10px;
   }
-  .setting-menu li a{
+  .setting-menu li a {
     font-size: 10px;
   }
   .credit-email {
