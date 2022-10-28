@@ -23,4 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 })
 
-//active sitting menu
+//active setting menu
+document.querySelectorAll('.single-menu').forEach(item => {
+  item.addEventListener('click', event => {
+    if(item.class === "active"){
+    item.classList.remove("active");
+    }
+    item.classList.add("active");
+
+  });
+})
+
