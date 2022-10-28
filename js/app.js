@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 // active menu set
-document.querySelectorAll("a").forEach((item) => {
+document.querySelectorAll(".list-style").forEach((item) => {
   item.addEventListener("click", (event) => {
-    if (item.class === "active") {
+    if (item.className === "active") {
       item.classList.remove("active");
     }
     item.classList.add("active");

@@ -252,8 +252,14 @@ main {
   margin-bottom: 30px;
 }
 .single-credit .trash-icon {
-  width: 30px;
-  height: 30px;
+  color: #bdbdbd;
+  font-size: 13px;
+  background: #f2f2f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 10px;
   right: 10px;
   top: 10px;
   position: absolute;
@@ -428,13 +434,19 @@ main {
 }
 .list-item .active {
   background: #ffffff;
-  border:1px solid #ff7901;
+  border: 1px solid #ff7901;
 }
 .list-item .active .indicator {
   background: #ff7901;
   left: 5px;
 }
-.all-credits .active{
-  border:1px solid #ff7901
+.all-credits .active {
+  border: 1px solid #ff7901;
 }
-
+.all-credits .active h4,input::placeholder {
+  color: #000;
+}
+.all-credits .active .trash-icon{
+  color: #FF4242;
+  background: #FFD7D7;
+}
