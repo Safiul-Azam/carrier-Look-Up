@@ -10,7 +10,7 @@
   .navbar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
   }
   .bar-menu-logo {
     display: flex;
@@ -32,8 +32,7 @@
 
   /*--- MAIN SECTION STYLE START ---*/
   .profile-information {
-    display: grid;
-    grid-template-columns: 420px;
+    display: block;
   }
   .profiler {
     width: 320px;
@@ -41,7 +40,6 @@
   }
   .credit-section {
     padding: 30px 15px 30px 15px;
-    /* border: 1px solid red; */
   }
   .all-credits {
     width: 420px;
@@ -115,8 +113,7 @@
   }
 
   .main-section {
-    display: grid;
-    grid-template-columns: 480px;
+    display: block;
   }
 
   .side-menubar {

@@ -18,10 +18,10 @@
     <!-- HEADER SECTION START-->
     <header class="header-section">
       <nav class="navbar">
-        <div class="barmenu-logo">
-          <i class="fas fa-solid fa-bars bar-menu-icon "></i>
+        <div class="bar-menu-logo">
+          <i class="fas fa-solid fa-bars bar-menu-icon"></i>
           <a href="/">
-            <img class="logo" src="images/icons/logo.png" alt="" />
+            <img class="logo" src="images/icons/logo.png" alt="logo" />
           </a>
         </div>
         <div class="user-information">
@@ -31,7 +31,7 @@
           </div>
           <div class="user">
             <div class="user-info" id="angle-down">
-              <img class="user-photo" src="images/profile.png" alt="" />
+              <img class="user-photo" src="images/profile.png" alt="user-photo" />
               <h4 class="user-name">Alexa Jui</h4>
               <img
                 class="angle-down"
@@ -54,46 +54,46 @@
     </header>
     <!-- HEADER SECTION END -->
     <!-- main SECTION start -->
-    <section class="main-section">
+    <main class="main-section">
       <!-- side navbar section  -->
       <nav class="side-menubar">
         <ul class="menubar">
           <li>
             <a class="menu-style"
-              ><img src="images/icons/dashboard.png" alt="" />Dashboard</a
+              ><img src="images/icons/dashboard.png" alt="dashboard" />Dashboard</a
             >
           </li>
           <li>
             <a class="menu-style"
-              ><img src="images/icons/lockup.png" alt="" />Lookup</a
+              ><img src="images/icons/lockup.png" alt="lockup" />Lookup</a
             >
           </li>
           <li>
             <a class="menu-style"
-              ><img src="images/icons/file.png" alt="" />Files</a
+              ><img src="images/icons/file.png" alt="file" />Files</a
             >
           </li>
           <li>
             <div class="nested-menu" id="nested-icon">
               <a class="menu-style" href="#"
-                ><img src="images/icons/logs.png" alt="" />Logs</a
+                ><img src="images/icons/logs.png" alt="logo" />Logs</a
               >
               <img
                 class="nested-icon"
                 src="images/icons/angle-down.svg"
-                alt=""
+                alt="angle-down"
               />
             </div>
             <ul class="nested-menu-item" id="nested-menu-item">
               <li>
                 <a class="nested-menu-style menu-style"
-                  ><img src="images/icons/single.png" alt="" />Single/Bulk
+                  ><img src="images/icons/single.png" alt="single" />Single/Bulk
                   Lookup</a
                 >
               </li>
               <li>
                 <a class="nested-menu-style menu-style"
-                  ><img src="images/icons/daily.png" alt="" />Daily Usages</a
+                  ><img src="images/icons/daily.png" alt="daily" />Daily Usages</a
                 >
               </li>
             </ul>
@@ -101,27 +101,27 @@
 
           <li>
             <a class="menu-style"
-              ><img src="images/icons/buy.png" alt="" />Buy Credits</a
+              ><img src="images/icons/buy.png" alt="buy" />Buy Credits</a
             >
           </li>
           <li>
             <a class="menu-style"
-              ><img src="images/icons/intre.png" alt="" />Integrations</a
+              ><img src="images/icons/intre.png" alt="intre" />Integrations</a
             >
           </li>
           <li>
             <a class="menu-style active"
-              ><img src="images/icons/profile.png" alt="" />My Profile</a
+              ><img src="images/icons/profile.png" alt="profile" />My Profile</a
             >
           </li>
         </ul>
       </nav>
       <!-- profile menu section -->
-      <main class="profile-section">
+      <section class="profile-section">
         <!-- user information  -->
         <div class="profile-information">
           <div class="profiler">
-            <img class="profile-pic" src="images/user-pic.png" alt="" />
+            <img class="profile-pic" src="images/user-pic.png" alt="profile" />
             <h4>Alexa Jui</h4>
             <p>alexajui@gmail.com</p>
             <p>+1 354 785 4125</p>
@@ -133,33 +133,18 @@
               <div class="single-credit">
                 <i class="fa-regular fa-trash-can trash-icon"></i>
                 <h4>Credit Card 1</h4>
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="xxxxxxxxxxxx4684"
-                />
+                <input type="text" placeholder="xxxxxxxxxxxx4684" />
               </div>
               <div class="single-credit">
                 <i class="fa-regular fa-trash-can trash-icon"></i>
                 <h4>Credit Card 2 (Default)</h4>
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="xxxxxxxxxxxx4242"
-                />
+                <input type="text" placeholder="xxxxxxxxxxxx4242" />
               </div>
               <div class="single-credit">
                 <i class="fa-regular fa-trash-can trash-icon"></i>
 
                 <h4>Credit Card 3</h4>
-                <input
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="xxxxxxxxxxxx1254"
-                />
+                <input type="text" placeholder="xxxxxxxxxxxx1254" />
               </div>
             </div>
           </div>
@@ -195,7 +180,6 @@
                   Notify me when list verification result is about to expire
                 </p>
               </li>
-              <hr />
               <li class="list-item">
                 <div class="toggle-btn">
                   <i class="indicator"></i>
@@ -204,24 +188,23 @@
                   <p>Receive Low Credits Email</p>
                 </div>
               </li>
-              <form action="" class="low-credit-email-form">
-                <div class="single-input">
-                  <label class="required">Send Email to</label>
-                  <input type="text" name="" id="" placeholder="alexajui@gmail.com"
-                  />
-                </div>
-                <div class="single-input">
-                  <label class="required">When credits are less than</label>
-                  <input type="text" name="" id="" placeholder="50" />
-                </div>
-              </form>
             </ul>
-            <hr />
+            <form action="/" class="low-credit-email-form">
+              <div class="single-input">
+                <label class="required">Send Email to</label>
+                <input type="text" placeholder="alexajui@gmail.com" />
+              </div>
+              <div class="single-input">
+                <label class="required">When credits are less than</label>
+                <input type="text" placeholder="50" />
+              </div>
+            </form>
+            <hr>
             <button class="change-btn">Save Changes</button>
           </div>
         </div>
-      </main>
-    </section>
+      </section>
+    </main>
     <!-- main SECTION END -->
     <!--own javascript link -->
     <script src="js/app.js"></script>
