@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     userMenu.classList.toggle("user-dropdown");
   });
 });
+
 // active menu set
 document.querySelectorAll('.menu-style').forEach(menu => {
   menu.addEventListener('click',()=>{
@@ -23,10 +24,20 @@ document.querySelectorAll('.menu-style').forEach(menu => {
   console.log(menu)
 })
 
+// single active credit cart
+document.querySelectorAll('.single-credit').forEach(credit => {
+  credit.addEventListener('click',()=>{
+    document.querySelectorAll('.single-credit').forEach(restCredit => {
+      restCredit.classList.remove('active')
+    })
+    credit.classList.add('active')
+  })
+})
+
 //active setting menu
-document.querySelectorAll(".single-tab").forEach(item => {
-  item.addEventListener('click', event => {
-    document.querySelectorAll(".single-tab").forEach(i => {i.classList.remove('active')})
+document.querySelectorAll(".single-tab").forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll(".single-tab").forEach(restTab => {restTab.classList.remove('active')})
     item.classList.add('active')
   })
 })
@@ -38,12 +49,7 @@ toggleBtn.forEach((toggle) =>
   })
 );
 
-// single credit active cart
-
-const singleCredit = document.querySelectorAll(".single-credit");
-singleCredit.forEach((single) => single.addEventListener("click", () => {
-  single.classList.toggle('active')
-}));
+// hum burger menu set
 document.addEventListener("DOMContentLoaded", () => {
   const humBerMenu = document.querySelector(".bar-menu-icon");
   const sideMenuBar = document.querySelector(".side-menubar");
