@@ -8,7 +8,7 @@
 }
 body {
   max-width: 1920px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /*-- REUSEABLE STYLE --*/
 li {
@@ -413,9 +413,12 @@ main {
 /*--- MAIN SECTION STYLE END ---*/
 
 /* STYLE JUST FOR JAVASCRIPT */
-/* .nested-menu-item {
+.nested-menu-item {
   display: none;
-} */
+}
+.user-dropdown{
+  display: none;
+}
 
 .menubar-section .active {
   color: #ffffff;
@@ -659,7 +662,7 @@ input::placeholder {
     max-width: 964px;
   }
   .profile-section {
-    width: 740px;
+    width: 738px;
     background: #fcfbff;
     padding: 30px 30px 40px 30px;
     border: 1px solid #f2f2f4;
@@ -712,7 +715,7 @@ input::placeholder {
     max-width: 1140px;
   }
   .profile-section {
-    width: 916px;
+    width: 914px;
     background: #fcfbff;
     padding: 30px 30px 40px 30px;
     border: 1px solid #f2f2f4;

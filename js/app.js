@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     nestedMenuItem.classList.toggle("nested-menu-item");
   });
   angleDown.addEventListener("mousedown", () => {
-    userMenu.classList.toggle("active");
+    userMenu.classList.toggle("user-dropdown");
   });
 });
 // active menu set
