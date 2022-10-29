@@ -17,19 +17,19 @@
   <body>
     <!-- HEADER SECTION START-->
     <header class="header-section">
-      <nav class="menubar">
-        <div class="logo-section">
+      <nav class="navbar">
+        <div class="menubar-logo">
           <i class="fas bar-menu-icon fa-solid fa-bars"></i>
           <a href="/">
             <img class="logo" src="images/icons/logo.png" alt="" />
           </a>
         </div>
-        <div class="profiler-info">
+        <div class="user-information">
           <div class="balance">
             <p>Balance :</p>
             <h2>$125</h2>
           </div>
-          <div class="user-section">
+          <div class="user">
             <div class="user-info" id="angle-down">
               <img class="user-photo" src="images/profile.png" alt="" />
               <h4 class="user-name">Alexa Jui</h4>
@@ -39,7 +39,7 @@
                 alt=""
               />
             </div>
-            <ul class="user-menu user-dropdown" id="user-menu-toggle">
+            <ul class="dropdown-menu user-dropdown" id="user-menu-toggle">
               <li>My Profile</li>
               <li>Add Fund</li>
               <li>API Documentation</li>
@@ -54,7 +54,7 @@
     </header>
     <!-- HEADER SECTION END -->
     <!-- main SECTION start -->
-    <main class="main-section">
+    <section class="main-section">
       <!-- side navbar section  -->
       <nav class="side-menubar">
         <ul class="menubar-section">
@@ -117,10 +117,10 @@
         </ul>
       </nav>
       <!-- profile menu section -->
-      <section class="profile-section">
+      <main class="profile-section">
         <!-- user information  -->
-        <div class="user-information">
-          <div class="user">
+        <div class="profile-information">
+          <div class="profiler">
             <img class="profile-pic" src="images/user-pic.png" alt="" />
             <h4>Alexa Jui</h4>
             <p>alexajui@gmail.com</p>
@@ -202,21 +202,17 @@
                 </div>
                 <div class="low-credit-email">
                   <p>Receive Low Credits Email</p>
-                  <div class="credit-email">
+                  <form action="" class="low-credit-email-form">
                     <div class="single-input">
                       <label class="required">Send Email to</label>
-                      <input
-                        type="text"
-                        name=""
-                        id=""
-                        placeholder="alexajui@gmail.com"
+                      <input type="text" name="" id="" placeholder="alexajui@gmail.com"
                       />
                     </div>
                     <div class="single-input">
                       <label class="required">When credits are less than</label>
                       <input type="text" name="" id="" placeholder="50" />
                     </div>
-                  </div>
+                  </form>
                 </div>
               </li>
             </ul>
@@ -224,8 +220,8 @@
             <button class="change-btn">Save Changes</button>
           </div>
         </div>
-      </section>
-    </main>
+      </main>
+    </section>
     <!-- main SECTION END -->
     <!--own javascript link -->
     <script src="js/app.js"></script>
