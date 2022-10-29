@@ -251,7 +251,7 @@ hr {
 .single-credit input {
   border: none;
   width: 100%;
-  padding: 7px 0 7px 0;
+  padding: 7px 0 7px 10px;
   font-size: 20px;
   outline: none;
 }
@@ -415,7 +415,7 @@ hr {
 }
 .all-credits .active h4,
 input::placeholder {
-  color: #000;
+  color: #bdbdbd;
 }
 .all-credits .active .trash-icon {
   color: #ff4242;

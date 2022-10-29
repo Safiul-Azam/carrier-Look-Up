@@ -14,32 +14,34 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // active menu set
-document.querySelectorAll('.menu-style').forEach(menu => {
-  menu.addEventListener('click',()=>{
-    document.querySelectorAll('.menu-style').forEach(restMenu => {
-      restMenu.classList.remove('active')
-    })
-    menu.classList.add('active')
-  })
-})
+document.querySelectorAll(".menu-style").forEach((menu) => {
+  menu.addEventListener("click", () => {
+    document.querySelectorAll(".menu-style").forEach((restMenu) => {
+      restMenu.classList.remove("active");
+    });
+    menu.classList.add("active");
+  });
+});
 
 // single active credit cart
-document.querySelectorAll('.single-credit').forEach(credit => {
-  credit.addEventListener('click',()=>{
-    document.querySelectorAll('.single-credit').forEach(restCredit => {
-      restCredit.classList.remove('active')
-    })
-    credit.classList.add('active')
-  })
-})
+document.querySelectorAll(".single-credit").forEach((credit) => {
+  credit.addEventListener("click", () => {
+    document.querySelectorAll(".single-credit").forEach((restCredit) => {
+      restCredit.classList.remove("active");
+    });
+    credit.classList.add("active");
+  });
+});
 
 //active setting menu
-document.querySelectorAll(".single-tab").forEach(tab => {
-  tab.addEventListener('click', () => {
-    document.querySelectorAll(".single-tab").forEach(restTab => {restTab.classList.remove('active')})
-    item.classList.add('active')
-  })
-})
+document.querySelectorAll(".single-tab").forEach((tab) => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".single-tab").forEach((restTab) => {
+      restTab.classList.remove("active");
+    });
+    tab.classList.add("active");
+  });
+});
 // setting switch btn toggle
 const toggleBtn = document.querySelectorAll(".toggle-btn");
 toggleBtn.forEach((toggle) =>
@@ -52,10 +54,10 @@ toggleBtn.forEach((toggle) =>
 document.addEventListener("DOMContentLoaded", () => {
   const humBerMenu = document.querySelector(".bar-menu-icon");
   const sideMenuBar = document.querySelector(".side-menubar");
-  const profileSection = document.querySelector('.profile-section')
+  const profileSection = document.querySelector(".profile-section");
 
   humBerMenu.addEventListener("mousedown", () => {
     sideMenuBar.classList.toggle("active");
-    profileSection.classList.toggle('deactivate')
+    profileSection.classList.toggle("deactivate");
   });
 });
