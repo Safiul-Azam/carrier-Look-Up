@@ -21,7 +21,6 @@ document.querySelectorAll('.menu-style').forEach(menu => {
     })
     menu.classList.add('active')
   })
-  console.log(menu)
 })
 
 // single active credit cart

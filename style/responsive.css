@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .bar-menu-logo{
+  .bar-menu-logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,13 +29,13 @@
     background: #fcfbff;
     padding: 30px 30px 40px 30px;
   }
-  
+
   /*--- MAIN SECTION STYLE START ---*/
   .profile-information {
     display: grid;
     grid-template-columns: 420px;
   }
-  .profiler{
+  .profiler {
     width: 320px;
     padding: 40px 50px 71px 50px;
   }
@@ -86,8 +86,8 @@
     background: #ffffff;
   }
   /* low credit email */
-  .low-credit-email-form{
-    width: 100%;
+  .low-credit-email-form {
+    width: 80%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -118,21 +118,21 @@
     display: grid;
     grid-template-columns: 480px;
   }
-  
-  .side-menubar{
+
+  .side-menubar {
     display: none;
     height: 100%;
   }
-  .main-section .active{
+  .main-section .active {
     display: block;
   }
-  .main-section .deactivate{
+  .main-section .deactivate {
     display: none;
   }
 }
 
 /* iPads, Tablets */
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   body {
     max-width: 768px;
   }
@@ -150,7 +150,7 @@
     display: grid;
     grid-template-columns: 484px;
   }
-  .profiler{
+  .profiler {
     width: 384px;
     padding: 40px 50px 71px 50px;
   }
@@ -161,7 +161,6 @@
     width: 454px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
   }
   .single-credit {
     width: 424px;
@@ -182,18 +181,15 @@
   .setting-menu li a {
     font-size: 10px;
   }
-  .low-credit-email-form{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  .low-credit-email-form {
+    width: 90%;
   }
 }
 
 /* Small screens, laptops */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   body {
-    max-width: 1023px;
+    max-width: 1024px;
   }
   .header-section {
     max-width: 964px;
@@ -217,30 +213,34 @@
     width: 420px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
   }
   .single-credit {
     width: 420px;
     padding: 14px;
   }
-  .profiler{
+  .profiler {
     width: 150px;
     padding: 40px 24px 71px 24px;
   }
 
   /* low credit email */
   .email-notifications {
-    width: 80%;
+    width: 738px;
     margin: auto;
   }
-  .low-credit-email-form{
-    width: 100%;
+  .low-credit-email-form {
+    width: 666px;
+    margin-left: 70px;
     display: flex;
-    flex-direction: column;
     gap: 30px;
+    margin-bottom: 30px;
   }
-  
-  
+  .single-input {
+    width: 95%;
+  }
+  .single-input input {
+    width: 94%;
+  }
 }
 
 /* Desktops, large screens */
@@ -275,9 +275,8 @@
     width: 606px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
   }
-  .profiler{
+  .profiler {
     text-align: center;
     background: #ffffff;
     border-radius: 10px;
