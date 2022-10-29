@@ -7,12 +7,21 @@
   .header-section {
     max-width: 420px;
   }
-  .menubar {
+  .navbar {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .profiler-info {
+  .bar-menu-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* hum burger menu  */
+  .navbar .bar-menu-icon {
+    display: block;
+  }
+  .user-information {
     display: none;
   }
   .profile-section {
@@ -20,12 +29,13 @@
     background: #fcfbff;
     padding: 30px 30px 40px 30px;
   }
+  
   /*--- MAIN SECTION STYLE START ---*/
-  .user-information {
+  .profile-information {
     display: grid;
     grid-template-columns: 420px;
   }
-  .user {
+  .profiler{
     width: 320px;
     padding: 40px 50px 71px 50px;
   }
@@ -76,7 +86,7 @@
     background: #ffffff;
   }
   /* low credit email */
-  .credit-email {
+  .low-credit-email-form{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -102,11 +112,6 @@
     height: 2px;
     left: 0;
     right: 0;
-  }
-
-  /* bar menu style  */
-  .menubar .bar-menu-icon {
-    display: block;
   }
 
   .main-section {
@@ -141,11 +146,11 @@
     padding: 30px 30px 40px 30px;
   }
   /*--- MAIN SECTION STYLE START ---*/
-  .user-information {
+  .profile-information {
     display: grid;
     grid-template-columns: 484px;
   }
-  .user {
+  .profiler{
     width: 384px;
     padding: 40px 50px 71px 50px;
   }
@@ -177,7 +182,7 @@
   .setting-menu li a {
     font-size: 10px;
   }
-  .credit-email {
+  .low-credit-email-form{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -194,13 +199,13 @@
     max-width: 964px;
   }
   .profile-section {
-    width: 740px;
+    width: 738px;
     background: #fcfbff;
     padding: 30px 30px 40px 30px;
     border: 1px solid #f2f2f4;
   }
   /*--- MAIN SECTION STYLE START ---*/
-  .user-information {
+  .profile-information {
     display: grid;
     grid-template-columns: 200px auto;
     gap: 15px;
@@ -218,7 +223,7 @@
     width: 420px;
     padding: 14px;
   }
-  .user {
+  .profiler{
     width: 150px;
     padding: 40px 24px 71px 24px;
   }
@@ -228,7 +233,7 @@
     width: 80%;
     margin: auto;
   }
-  .credit-email {
+  .low-credit-email-form{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -247,13 +252,13 @@
     max-width: 1140px;
   }
   .profile-section {
-    width: 916px;
+    width: 914px;
     background: #fcfbff;
     padding: 30px 30px 40px 30px;
     border: 1px solid #f2f2f4;
   }
   /*--- MAIN SECTION STYLE START ---*/
-  .user-information {
+  .profile-information {
     display: grid;
     grid-template-columns: 250px auto;
     gap: 30px;
@@ -272,7 +277,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
-  .user {
+  .profiler{
     text-align: center;
     background: #ffffff;
     border-radius: 10px;

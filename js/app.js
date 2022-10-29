@@ -13,24 +13,23 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 // active menu set
-document.querySelectorAll(".list-style").forEach((item) => {
-  item.addEventListener("click", (event) => {
-    if (item.className === "active") {
-      item.classList.remove("active");
-    }
-    item.classList.add("active");
-  });
-});
+document.querySelectorAll('.menu-style').forEach(menu => {
+  menu.addEventListener('click',()=>{
+    document.querySelectorAll('.menu-style').forEach(restMenu => {
+      restMenu.classList.remove('active')
+    })
+    menu.classList.add('active')
+  })
+  console.log(menu)
+})
 
 //active setting menu
-document.querySelectorAll(".single-menu").forEach((item) => {
-  item.addEventListener("click", (event) => {
-    if (item.class === "active") {
-      item.classList.remove("active");
-    }
-    item.classList.add("active");
-  });
-});
+document.querySelectorAll(".single-tab").forEach(item => {
+  item.addEventListener('click', event => {
+    document.querySelectorAll(".single-tab").forEach(i => {i.classList.remove('active')})
+    item.classList.add('active')
+  })
+})
 // setting switch btn toggle
 const toggleBtn = document.querySelectorAll(".toggle-btn");
 toggleBtn.forEach((toggle) =>
@@ -38,7 +37,6 @@ toggleBtn.forEach((toggle) =>
     toggle.classList.toggle("active");
   })
 );
-console.log(toggleBtn);
 
 // single credit active cart
 
